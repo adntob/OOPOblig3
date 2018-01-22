@@ -32,8 +32,6 @@ public class Main {
         System.out.println(buffy.getAverageRunTime() );
 
 
-
-
         System.out.println("\t Oppgave 4 \t");
         System.out.println("=======================================================Season 4 =======================================================");
         /*
@@ -62,15 +60,15 @@ public class Main {
 
 
         /*
-        * ======================================================= (Oppgave 7 & 8 =======================================================)
+        * ======================================================= Oppgave 7 & 8 =======================================================)
         * */
 
-        System.out.println("As of today, there are " + buffy.getNumberOfSeasons() +  " seasons of Buffy the vampire slayer");
+        System.out.println("There are currently " + buffy.getNumberOfSeasons() +  " seasons of Buffy the vampire slayer");
 
         Episode oneMoreSeason = new Episode(133,9,"Faith Arc", 60);
         buffy.addEpisode(oneMoreSeason);
 
-        System.out.println("As of today, there are " + buffy.getNumberOfSeasons() +  " seasons of Buffy the vampire slayer");
+        System.out.println("There are currently " + buffy.getNumberOfSeasons() +  " seasons of Buffy the vampire slayer");
 
         Episode tooHighSeason = new Episode(99,11,"Paying Joss Whedon's bills",40);
         buffy.addEpisode(tooHighSeason);
@@ -78,8 +76,5 @@ public class Main {
 
         // Programmet vil termineres på stedet, s.a vi ikke får printet ut noe mer ss. linjen under
         System.out.println("Sinh(x)=(exp(x)-exp(-x))/2");
-
     }
-
-
 }

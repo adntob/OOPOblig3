@@ -1,4 +1,4 @@
-package Innlevering1;
+package no.hiof.no.aadnet.oblig2;
 import java.util.ArrayList;
 
 public class Series {

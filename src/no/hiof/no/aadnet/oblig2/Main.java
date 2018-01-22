@@ -1,13 +1,9 @@
-package Innlevering1;
+package no.hiof.no.aadnet.oblig2;
 import java.util.Random;
 
 public class Main {
 
     public static void main(String[] args){
-
-
-
-
         /*
         *   Oppgave 2
         * */
@@ -28,8 +24,17 @@ public class Main {
         buffy.addEpisode(innocence);
 
 
-        System.out.println(faithHopeAndTricks.getSeason() );
-        System.out.println(buffy.getAverageRunTime() );
+
+        System.out.println("Oppgave 3");
+        System.out.println("=======================================================");
+        System.out.println("The season where we have the amazing episode " + faithHopeAndTricks.getTitle() + " is in season " + faithHopeAndTricks.getSeason() );
+        System.out.println("The average run-time for an episode of Buffy is " + buffy.getAverageRunTime() +  " minutes"); //Note I am pulling these number from a hat
+        System.out.println("=======================================================");
+       System.out.println(buffy.toString() );
+       System.out.println("=======================================================");
+       System.out.println(faithHopeAndTricks.toString());
+       System.out.println("=======================================================");
+
 
 
         System.out.println("\t Oppgave 4 \t");

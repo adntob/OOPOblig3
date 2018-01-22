@@ -4,9 +4,9 @@ import java.util.ArrayList;
 public class Series {
     private String title;
     private String description;
-    private int release;
+    private int releaseYear;
 
-    private int howManySeasons;
+    private int numberOfSeasons;
     private int averageRunTime;
     private ArrayList <Episode> episodes = new ArrayList<>();
 
@@ -14,26 +14,53 @@ public class Series {
     *   Constructors
     * */
 
-    public Series(String title, String description, int release) {
+    public Series(String title, String description, int releaseYear) {
         this.title = title;
         this.description = description;
-        this.release = release;
+        this.releaseYear = releaseYear;
     }
 
-    public Series(String title, String description, int release, int howManySeasons) {
+    public Series(String title, String description, int releaseYear, int numberOfSeasons) {
         this.title = title;
         this.description = description;
-        this.release = release;
-        this.howManySeasons = howManySeasons;
+        this.releaseYear = releaseYear;
+        this.numberOfSeasons = numberOfSeasons;
     }
 
 
     /*
-    * Getters & setters
+    * Setters
     * */
 
-    public int getHowManySeasons() {
-        return howManySeasons;
+    public void setEpisodes(ArrayList<Episode> episodes)
+    {
+        this.episodes = episodes;
+    }
+
+    public void setTitle(String title) {
+
+        this.title = title;
+    }
+
+
+    public void setReleaseYear(int releaseYear)
+    {
+        this.releaseYear = releaseYear;
+    }
+
+
+    public void setDescription(String description)
+    {
+        this.description = description;
+    }
+
+    /*
+    * Getters
+    * */
+
+
+    public int getNumberOfSeasons() {
+        return numberOfSeasons;
     }
 
     public int getAverageRunTime(){
@@ -56,39 +83,21 @@ public class Series {
         return e;
     }
 
-    public void setEpisodes(ArrayList<Episode> episodes)
-    {
-        this.episodes = episodes;
-    }
 
     public String getTitle()
     {
         return title;
     }
 
-    public void setTitle(String title) {
-
-        this.title = title;
-    }
 
     public String getDescription() {
 
         return description;
     }
 
-    public void setDescription(String description)
+    public int getReleaseYear()
     {
-        this.description = description;
-    }
-
-    public int getRelease()
-    {
-        return release;
-    }
-
-    public void setRelease(int release)
-    {
-        this.release = release;
+        return releaseYear;
     }
 
     /*
@@ -97,12 +106,12 @@ public class Series {
 
     public void addEpisode(Episode episode)
     {
-        if (episode.getSeason()>(howManySeasons+1) ){
+        if (episode.getSeason()>(numberOfSeasons +1) ){
             throw new IllegalArgumentException("Error, invalid season");
         }
         else{
-            if(episode.getSeason()==(howManySeasons+1) ){
-                howManySeasons+=1;
+            if(episode.getSeason()==(numberOfSeasons +1) ){
+                numberOfSeasons +=1;
             }
             episodes.add(episode);
             calculateAverageRunTime();
@@ -113,7 +122,7 @@ public class Series {
     public String toString() {
         return "Series: "+ title + "\n" +
                 "description: "  + description + "\n" +
-                "release: " + release;
+                "releaseYear: " + releaseYear;
     }
 
     private void calculateAverageRunTime(){

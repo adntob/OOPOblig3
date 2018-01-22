@@ -4,8 +4,12 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args){
+
+
+
+
         /*
-        * Lag objekter av episoder & serier
+        *   Oppgave 2
         * */
 
         Series bojack= new Series("Bojack Horseman","A series about a washed up antropomerphic horse actor",2004, 4);
@@ -23,21 +27,23 @@ public class Main {
         buffy.addEpisode(passion);
         buffy.addEpisode(innocence);
 
-        /*
-        * Test og se om det går ann å skrive ut dataen
-        * */
 
         System.out.println(faithHopeAndTricks.getSeason() );
         System.out.println(buffy.getAverageRunTime() );
 
 
+
+
+        System.out.println("\t Oppgave 4 \t");
+        System.out.println("=======================================================Season 4 =======================================================");
         /*
-        * Lag 5 sesonger av en generisk tv-serie, med  20 episoder i hver.
-        * Tilfeldig lengde på hver episode
+        * 1). Initialize 5 seasons w/. random length for each episode.
+        * 2). Print out the entire season 4.
         * */
 
         Series genericSeries = new Series("Generic Series: AF","A very generic series, " +
                 "probably a spin-off series set in the CSI universe", 2019,5);
+
 
         int j;
         int k;
@@ -48,22 +54,23 @@ public class Main {
                 genericSeries.addEpisode(y);
             }
         }
-
         System.out.println(genericSeries.GetEpisodesFromSeason(4).toString());
+
+        System.out.println("======================================================= Oppgave 5=======================================================");
         System.out.println("The average runtime for an episode of this series is approximately "+ genericSeries.getAverageRunTime() +
                 " minutes per episode");
 
 
         /*
-        * Security measures (Oppgave 7 & 8)
+        * ======================================================= (Oppgave 7 & 8 =======================================================)
         * */
 
-        System.out.println("As of today, there are " + buffy.getHowManySeasons() +  " seasons of Buffy the vampire slayer");
+        System.out.println("As of today, there are " + buffy.getNumberOfSeasons() +  " seasons of Buffy the vampire slayer");
 
         Episode oneMoreSeason = new Episode(133,9,"Faith Arc", 60);
         buffy.addEpisode(oneMoreSeason);
 
-        System.out.println("As of today, there are " + buffy.getHowManySeasons() +  " seasons of Buffy the vampire slayer");
+        System.out.println("As of today, there are " + buffy.getNumberOfSeasons() +  " seasons of Buffy the vampire slayer");
 
         Episode tooHighSeason = new Episode(99,11,"Paying Joss Whedon's bills",40);
         buffy.addEpisode(tooHighSeason);

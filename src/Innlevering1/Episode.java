@@ -12,6 +12,9 @@ public class Episode {
     * Konstruktører
     * */
 
+    public Episode(){
+    }
+
     public Episode(int episodeNumber, int season, String title, int lengthEpisode){
         this.episodeNumber = episodeNumber;
         this.season = season;
@@ -60,7 +63,8 @@ public class Episode {
         this.title = title;
     }
 
-    public void setLengthEpisode(int lengthEpisode) {
+    public void setLengthEpisode(int lengthEpisode)
+    {
         this.lengthEpisode = lengthEpisode;
     }
 

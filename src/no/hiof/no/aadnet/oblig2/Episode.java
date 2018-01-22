@@ -9,7 +9,7 @@ public class Episode {
     private int lengthEpisode; //In minutes
 
     /**
-    * Konstruktører
+    * Constructors
     * */
 
     public Episode(){

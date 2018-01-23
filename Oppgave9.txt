@@ -1,0 +1,21 @@
+Class = En generalisert form for å beskrive noe, med en viss mengde attributter, metoder etc
+
+Objekt = en instans av klassen, innehar attributene av klassen
+field-variables = variabler som er tilgjengelige kun innad i en klasse
+
+overriding - overkjøre metoden. @override toString
+
+overloading = å ha flere konstruktører for en klasse
+
+Extends: En klasse arver innholdet ifra en annen klasse, f.eks vil både menneske og sjimpanse arve ifra primat, disse vil da likne, men ikke være helt like
+
+polymorfisme = At et objekt vil ha to former, et arvet og et nedarvet, det allokeres plass i minnet til superklassen, mens objektet vil være av vanlig type
+
+private vil si at det kun er tilgang til denne metoden innad i klassen, men ikke utenfor. Public vil si at det er tilgang til dette, selv utenfor klassen
+
+
+protected vil gi tilgang til nøkkelordet for underklassene
+
+this.ting er et reservert ord for "ting" i klassen, brukes for metodene. f.eks this.ting = ting
+
+super - for å få tilgang til noe i foreldre-klassen når begge bruker samme nøkkelord på noe  

@@ -26,11 +26,13 @@ public class Main {
 
 
         System.out.println("Oppgave 3");
+
+
         System.out.println("=======================================================");
         System.out.println("The season where we have the amazing episode " + faithHopeAndTricks.getTitle() + " is in season " + faithHopeAndTricks.getSeason() );
         System.out.println("The average run-time for an episode of Buffy is " + buffy.getAverageRunTime() +  " minutes"); //Note I am pulling these number from a hat
         System.out.println("=======================================================");
-       System.out.println(buffy.toString() );
+       System.out.println(buffy.toString());
        System.out.println("=======================================================");
        System.out.println(faithHopeAndTricks.toString());
        System.out.println("=======================================================");
@@ -57,7 +59,7 @@ public class Main {
                 genericSeries.addEpisode(y);
             }
         }
-        System.out.println(genericSeries.GetEpisodesFromSeason(4).toString());
+        System.out.println(genericSeries.GetEpisodesFromSeason(4));
 
         System.out.println("======================================================= Oppgave 5=======================================================");
         System.out.println("The average runtime for an episode of this series is approximately "+ genericSeries.getAverageRunTime() +

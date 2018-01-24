@@ -5,7 +5,6 @@ public class Series {
     private String title;
     private String description;
     private int releaseYear;
-
     private int numberOfSeasons;
     private int averageRunTime;
     private ArrayList <Episode> episodes = new ArrayList<>();
@@ -18,13 +17,7 @@ public class Series {
         this.title = title;
         this.description = description;
         this.releaseYear = releaseYear;
-    }
-
-    public Series(String title, String description, int releaseYear, int numberOfSeasons) {
-        this.title = title;
-        this.description = description;
-        this.releaseYear = releaseYear;
-        this.numberOfSeasons = numberOfSeasons;
+        numberOfSeasons=0;
     }
 
 

@@ -7,6 +7,8 @@ public class Production {
     public String title;
     public String description;
     public int releaseYear;
+    Person director;
+
 
     public void setTitle(String title) {
 

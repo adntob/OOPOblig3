@@ -1,10 +1,8 @@
 package no.hiof.no.aadnet.oblig2;
 import java.util.ArrayList;
 
-public class Series {
-    private String title;
-    private String description;
-    private int releaseYear;
+public class Series extends Production {
+
     private int numberOfSeasons;
     private int averageRunTime;
     private ArrayList <Episode> episodes = new ArrayList<>();
@@ -14,9 +12,9 @@ public class Series {
     * */
 
     public Series(String title, String description, int releaseYear) {
-        this.title = title;
-        this.description = description;
-        this.releaseYear = releaseYear;
+        super.title = title;
+        super.description = description;
+        super.releaseYear = releaseYear;
         numberOfSeasons=0;
     }
 
@@ -30,22 +28,9 @@ public class Series {
         this.episodes = episodes;
     }
 
-    public void setTitle(String title) {
-
-        this.title = title;
-    }
 
 
-    public void setReleaseYear(int releaseYear)
-    {
-        this.releaseYear = releaseYear;
-    }
 
-
-    public void setDescription(String description)
-    {
-        this.description = description;
-    }
 
     /*
     * Getters
@@ -75,24 +60,6 @@ public class Series {
         }
         return e;
     }
-
-
-    public String getTitle()
-    {
-        return title;
-    }
-
-
-    public String getDescription() {
-
-        return description;
-    }
-
-    public int getReleaseYear()
-    {
-        return releaseYear;
-    }
-
     /*
     * Metoder
     * */

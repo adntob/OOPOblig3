@@ -1,11 +1,10 @@
 package no.hiof.no.aadnet.oblig2;
 import java.time.LocalDate;
 
-public class Episode {
+public class Episode extends Production {
 
     private int episodeNumber;
     private int season;
-    private String title;
     private int lengthEpisode; //In minutes
 
     /**
@@ -18,14 +17,14 @@ public class Episode {
     public Episode(int episodeNumber, int season, String title, int lengthEpisode){
         this.episodeNumber = episodeNumber;
         this.season = season;
-        this.title = title;
+        super.title = title;
         this.lengthEpisode = lengthEpisode;
     }
 
     public Episode(int episodeNumber, int season, String title){
         this.episodeNumber = episodeNumber;
         this.season = season;
-        this.title = title;
+        super.title = title;
     }
 
     /**
@@ -39,9 +38,6 @@ public class Episode {
         return season;
     }
 
-    public String getTitle() {
-        return title;
-    }
 
     public int getLengthEpisode() {
         return lengthEpisode;
@@ -57,10 +53,6 @@ public class Episode {
 
     public void setSeason(int season) {
         this.season = season;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public void setLengthEpisode(int lengthEpisode)

@@ -62,16 +62,23 @@ public class Main {
         System.out.println(genericSeries.GetEpisodesFromSeason(4));
 
         System.out.println("======================================================= Oppgave 5=======================================================");
-        System.out.println("The average runtime for an episode of this series is approximately "+ genericSeries.getAverageRunTime() +
+        System.out.println("The average runtime for an episode for this series is approximately "+ genericSeries.getAverageRunTime() +
                 " minutes per episode");
 
 
         /*
         * ======================================================= Oppgave 7 & 8 =======================================================)
         * */
+        /*
         System.out.println(buffy.getNumberOfSeasons() );
         Episode e = new Episode(5,6,"lol",50);
         buffy.addEpisode(e);
+*/
+
+
+
+
+
 
 
 

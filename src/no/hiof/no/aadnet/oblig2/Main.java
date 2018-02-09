@@ -1,9 +1,8 @@
 package no.hiof.no.aadnet.oblig2;
-import java.util.Random;
 
 public class Main {
-
     public static void main(String[] args){
+
         /*
         *   Oppgave 2
         * */
@@ -25,6 +24,13 @@ public class Main {
 
 
 
+
+
+
+
+
+
+
         System.out.println("Oppgave 3");
 
 
@@ -42,10 +48,12 @@ public class Main {
         System.out.println("\t Oppgave 4 \t");
         System.out.println("=======================================================Season 4 =======================================================");
         /*
+
+        /*
         * 1). Initialize 5 seasons w/. random length for each episode.
         * 2). Print out the entire season 4.
         * */
-
+        /*
         Series genericSeries = new Series("Generic Series: AF","A very generic series, " +
                 "probably a spin-off series set in the CSI universe", 2019);
 
@@ -65,7 +73,7 @@ public class Main {
         System.out.println("The average runtime for an episode for this series is approximately "+ genericSeries.getAverageRunTime() +
                 " minutes per episode");
 
-
+        */
         /*
         * ======================================================= Oppgave 7 & 8 =======================================================)
         * */
@@ -83,6 +91,65 @@ public class Main {
 
 
         // Programmet vil termineres på stedet, s.a vi ikke får printet ut noe mer ss. linjen under
-        System.out.println("Sinh(x)=(exp(x)-exp(-x))/2");
+
+        //Obligatorisk innlevering 3
+
+        /*
+        *   MOVIE EXAMPLE
+        * */
+
+        System.out.println("************************************************************************************");
+        System.out.println("*************************************MOVIE*****************************************");
+
+        Movie calculusTheMovie = new Movie("Calculus: The Movie", "A fairly derivative movie " +
+                "about a secret tangent and his his epic quest to achieve change",1675);
+
+        Person leibniz = new Person(29,"Gottfried","Leibniz");
+
+        calculusTheMovie.setDirector(leibniz);
+
+        System.out.println(calculusTheMovie.getDirector() );
+
+
+        Character theVillain = new Character(new Person(33,"Isaac","Newton"),"Douche","Bag");
+
+        Character scaryBlackGuy = new Character(new Person(40,"Samuel L.", "Jackson"),"Scary","Black Guy");
+
+        Character theLoveInterest = new Character(new Person(25,"Ariana","Grande"),"Token","Love Interest");
+
+        calculusTheMovie.addRole(theVillain);
+
+        calculusTheMovie.addRole(scaryBlackGuy);
+        System.out.println(calculusTheMovie.getCharacters().get(1).toString() );
+
+        /*
+        *   TV SERIES EXAMPLE
+        * */
+        System.out.println("************************************************************************************");
+        System.out.println("*************************************TV SERIES**************************************");
+        Person whedon = new Person(54, "Joss","Whedon");
+
+        buffy.setDirector(whedon);
+        //System.out.println(buffy.getDirector());
+
+        Person sarah = new Person(41,"Sarah Michelle", "Gellar");
+        Character buffySummers = new Character(sarah, "Buffy","Summers");
+
+        Person david = new Person(49,"David", "Boreanaz");
+        Character angel = new Character(david,"Angelus"," ");
+
+        buffy.addRole(buffySummers);
+        buffy.addRole(angel);
+
+        buffy.getCast();
+
+        Character faith = new Character(new Person(38,"Eliza", "Dushku"), "Faith","Lehane");
+
+        faithHopeAndTricks.addRole(faith);
+
+        faithHopeAndTricks.setDirector(whedon);
+        faithHopeAndTricks.addRole(buffySummers);
+        faithHopeAndTricks.addRole(angel);
+
     }
 }

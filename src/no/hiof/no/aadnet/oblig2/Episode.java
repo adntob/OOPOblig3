@@ -15,18 +15,18 @@ public class Episode extends Production {
     }
 
     public Episode(int episodeNumber, int season, String title, int lengthEpisode){
+        super(title);
         this.episodeNumber = episodeNumber;
         this.season = season;
-        super.title = title;
+
         this.lengthEpisode = lengthEpisode;
     }
 
     public Episode(int episodeNumber, int season, String title){
         this.episodeNumber = episodeNumber;
         this.season = season;
-        super.title = title;
-    }
 
+    }
     /**
      * Getters
      **/
@@ -65,7 +65,7 @@ public class Episode extends Production {
         return
                 "episode: " + episodeNumber + "\n" +
                 "season: " + season + "\n" +
-                "title:" + title + '\n' +
+                "title:" + getTitle() + '\n' +
                 "length: " + lengthEpisode;
     }
 }

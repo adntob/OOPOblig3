@@ -11,32 +11,20 @@ public class Series extends Production {
     *   Constructors
     * */
 
+    private String title;
+    private String description;
+    private int releaseYear;
+
+
     public Series(String title, String description, int releaseYear) {
-        super.title = title;
-        super.description = description;
-        super.releaseYear = releaseYear;
+        this.title=title;
+        this.description=description;
+        this.releaseYear=releaseYear;
         numberOfSeasons=0;
     }
-
-
-    /*
-    * Setters
-    * */
-
-    public void setEpisodes(ArrayList<Episode> episodes)
-    {
-        this.episodes = episodes;
-    }
-
-
-
-
-
     /*
     * Getters
     * */
-
-
     public int getNumberOfSeasons() {
         return numberOfSeasons;
     }
@@ -80,10 +68,11 @@ public class Series extends Production {
 
     @Override
     public String toString() {
-        return "Series: "+ title + "\n" +
-                "description: "  + description + "\n" +
-                "releaseYear: " + releaseYear;
+        return "Series: "+ getTitle() + "\n" +
+                "description: "  + getDescription() + "\n" +
+                "releaseYear: " + getReleaseYear();
     }
+
 
     private void calculateAverageRunTime(){
         int j;
@@ -93,4 +82,19 @@ public class Series extends Production {
         }
         averageRunTime = totalDuration/episodes.size();
     }
-}
+
+    public ArrayList<Character> getCast() {
+        ArrayList<Character> cast = new ArrayList<>();
+        Character ro;
+        int i, j;
+
+
+        for (i=0;i<episodes.size();i++){
+            for (j=0;j<episodes.get(i).getCharacters().size();j++)
+                cast.add( episodes.get(i).getCharacters().get(j) );
+            }
+                return cast;
+            }
+    }
+
+

@@ -34,12 +34,14 @@ public class Episode extends Production {
         return episodeNumber;
     }
 
-    public int getSeason() {
+    public int getSeason()
+    {
         return season;
     }
 
 
-    public int getLengthEpisode() {
+    public int getLengthEpisode()
+    {
         return lengthEpisode;
     }
 
@@ -47,7 +49,8 @@ public class Episode extends Production {
      * Setters
      **/
 
-    public void setEpisodeNumber(int episodeNumber) {
+    public void setEpisodeNumber(int episodeNumber)
+    {
         this.episodeNumber = episodeNumber;
     }
 
@@ -55,7 +58,8 @@ public class Episode extends Production {
         this.season = season;
     }
 
-    public void setLengthEpisode(int lengthEpisode)
+    public void setLengthEpisode(
+            int lengthEpisode)
     {
         this.lengthEpisode = lengthEpisode;
     }

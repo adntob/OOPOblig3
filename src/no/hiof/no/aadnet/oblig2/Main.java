@@ -22,78 +22,6 @@ public class Main {
         buffy.addEpisode(passion);
         buffy.addEpisode(innocence);
 
-
-
-
-
-
-
-
-
-
-        System.out.println("Oppgave 3");
-
-
-        System.out.println("=======================================================");
-        System.out.println("The season where we have the amazing episode " + faithHopeAndTricks.getTitle() + " is in season " + faithHopeAndTricks.getSeason() );
-        System.out.println("The average run-time for an episode of Buffy is " + buffy.getAverageRunTime() +  " minutes"); //Note I am pulling these number from a hat
-        System.out.println("=======================================================");
-       System.out.println(buffy.toString());
-       System.out.println("=======================================================");
-       System.out.println(faithHopeAndTricks.toString());
-       System.out.println("=======================================================");
-
-
-
-        System.out.println("\t Oppgave 4 \t");
-        System.out.println("=======================================================Season 4 =======================================================");
-        /*
-
-        /*
-        * 1). Initialize 5 seasons w/. random length for each episode.
-        * 2). Print out the entire season 4.
-        * */
-        /*
-        Series genericSeries = new Series("Generic Series: AF","A very generic series, " +
-                "probably a spin-off series set in the CSI universe", 2019);
-
-
-        int j;
-        int k;
-        for(j=1;j<=5;j++){
-            for (k=1;k<=20;k++){
-                Random r = new Random();
-                Episode y = new Episode(k, j, "", r.nextInt(11)+20);
-                genericSeries.addEpisode(y);
-            }
-        }
-        System.out.println(genericSeries.GetEpisodesFromSeason(4));
-
-        System.out.println("======================================================= Oppgave 5=======================================================");
-        System.out.println("The average runtime for an episode for this series is approximately "+ genericSeries.getAverageRunTime() +
-                " minutes per episode");
-
-        */
-        /*
-        * ======================================================= Oppgave 7 & 8 =======================================================)
-        * */
-        /*
-        System.out.println(buffy.getNumberOfSeasons() );
-        Episode e = new Episode(5,6,"lol",50);
-        buffy.addEpisode(e);
-*/
-
-
-
-
-
-
-
-
-        // Programmet vil termineres på stedet, s.a vi ikke får printet ut noe mer ss. linjen under
-
-        //Obligatorisk innlevering 3
-
         /*
         *   MOVIE EXAMPLE
         * */
@@ -110,16 +38,15 @@ public class Main {
 
         System.out.println(calculusTheMovie.getDirector() );
 
-
         Character theVillain = new Character(new Person(33,"Isaac","Newton"),"Douche","Bag");
 
         Character scaryBlackGuy = new Character(new Person(40,"Samuel L.", "Jackson"),"Scary","Black Guy");
 
         Character theLoveInterest = new Character(new Person(25,"Ariana","Grande"),"Token","Love Interest");
 
-        calculusTheMovie.addRole(theVillain);
+        calculusTheMovie.addCharacter(theVillain);
 
-        calculusTheMovie.addRole(scaryBlackGuy);
+        calculusTheMovie.addCharacter(scaryBlackGuy);
         System.out.println(calculusTheMovie.getCharacters().get(1).toString() );
 
         /*
@@ -130,7 +57,7 @@ public class Main {
         Person whedon = new Person(54, "Joss","Whedon");
 
         buffy.setDirector(whedon);
-        //System.out.println(buffy.getDirector());
+        System.out.println(buffy.getDirector());
 
         Person sarah = new Person(41,"Sarah Michelle", "Gellar");
         Character buffySummers = new Character(sarah, "Buffy","Summers");
@@ -138,18 +65,23 @@ public class Main {
         Person david = new Person(49,"David", "Boreanaz");
         Character angel = new Character(david,"Angelus"," ");
 
-        buffy.addRole(buffySummers);
-        buffy.addRole(angel);
+        buffy.addCharacter(buffySummers);
+        buffy.addCharacter(angel);
 
         buffy.getCast();
 
         Character faith = new Character(new Person(38,"Eliza", "Dushku"), "Faith","Lehane");
 
-        faithHopeAndTricks.addRole(faith);
+
+        faithHopeAndTricks.addCharacter(buffySummers);
+        theZeppo.addCharacter(faith);
+        faithHopeAndTricks.addCharacter(angel);
+
+        faithHopeAndTricks.addCharacter(faith);
 
         faithHopeAndTricks.setDirector(whedon);
-        faithHopeAndTricks.addRole(buffySummers);
-        faithHopeAndTricks.addRole(angel);
-
+        faithHopeAndTricks.addCharacter(buffySummers);
+        faithHopeAndTricks.addCharacter(angel);
+        System.out.println(buffy.getCast());
     }
 }

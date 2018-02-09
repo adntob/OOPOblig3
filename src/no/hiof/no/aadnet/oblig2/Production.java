@@ -6,6 +6,12 @@ import java.util.ArrayList;
  */
 public class Production {
 
+    private String title;
+    private String description;
+    private int releaseYear;
+    private Person director;
+    public ArrayList<Character> characters = new ArrayList<>();
+
     public Production(){
 
     }
@@ -14,15 +20,12 @@ public class Production {
         this.description=description;
     }
 
-    public void setCharacters(ArrayList<Character> characters) {
-        this.characters = characters;
-    }
-
     public Production(String title){
         this.title=title;
     }
 
-    public ArrayList<Character> getCharacters() {
+    public ArrayList<Character> getCharacters()
+    {
         return characters;
     }
 
@@ -37,15 +40,6 @@ public class Production {
     }
 
 
-    private String title;
-    private String description;
-    private int releaseYear;
-    private Person director;
-    private ArrayList<Character> characters = new ArrayList<>();
-
-
-
-
     public void addCharacter(Character role){
         this.characters.add(role);
     }
@@ -54,6 +48,7 @@ public class Production {
         for(i=0;i<rolesToBeAdded.size();i++){
             this.characters.add(rolesToBeAdded.get(i));
         }
+
     }
 
     public Person getDirector() {
@@ -95,12 +90,11 @@ public class Production {
 
     @Override
     public String   toString() {
-        return "Production{" +
+        return "Production" +
                 "title='" + title + '\'' +
                 ", description='" + description + '\'' +
                 ", releaseYear=" + releaseYear +
                 ", director=" + director +
-                ", characters=" + characters +
-                '}';
+                ", characters=" + characters;
     }
 }

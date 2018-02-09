@@ -51,7 +51,6 @@ public class Series extends Production {
     /*
     * Metoder
     * */
-
     public void addEpisode(Episode episode)
     {
         if (episode.getSeason()>(numberOfSeasons +1) ){
@@ -65,36 +64,34 @@ public class Series extends Production {
             calculateAverageRunTime();
         }
     }
-
     @Override
     public String toString() {
         return "Series: "+ getTitle() + "\n" +
                 "description: "  + getDescription() + "\n" +
                 "releaseYear: " + getReleaseYear();
     }
-
-
     private void calculateAverageRunTime(){
         int j;
         int totalDuration =0;
-        for (j=0;j< episodes.size();j++){
-            totalDuration+=episodes.get(j).getLengthEpisode();
+        for ( Episode e : episodes){
+            totalDuration+=e.getLengthEpisode();
         }
-        averageRunTime = totalDuration/episodes.size();
+        averageRunTime = totalDuration/episodes.size();             // Lite effektiv algoritme
     }
-
     public ArrayList<Character> getCast() {
         ArrayList<Character> cast = new ArrayList<>();
-        Character ro;
-        int i, j;
-
-
-        for (i=0;i<episodes.size();i++){
-            for (j=0;j<episodes.get(i).getCharacters().size();j++)
-                cast.add( episodes.get(i).getCharacters().get(j) );
-            }
+        int j;
+                for (Episode e : episodes){
+                    for (j=0;j<e.getCharacters().size();j++) {
+                        if (! cast.contains(e.getCharacters().get(j))) {//If it does not contain the character -> add
+                            e.getCharacters().get(j).addOccurances();
+                            cast.add(e.getCharacters().get(j));
+                        }
+                        else{
+                            cast.get( cast.indexOf(e.getCharacters().get(j) ) ).addOccurances();
+                        }
+                    }
+                }
                 return cast;
             }
     }
-
-

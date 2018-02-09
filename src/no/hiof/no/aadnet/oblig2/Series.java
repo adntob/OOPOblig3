@@ -84,12 +84,9 @@ public class Series extends Production {
                 for (Episode e : episodes){
                     for (j=0;j<e.getCharacters().size();j++) {
                         if (! cast.contains(e.getCharacters().get(j))) {//If it does not contain the character -> add
-                            e.getCharacters().get(j).addOccurances();
                             cast.add(e.getCharacters().get(j));
                         }
-                        else{
-                            cast.get( cast.indexOf(e.getCharacters().get(j) ) ).addOccurances();
-                        }
+                        cast.get( cast.indexOf(e.getCharacters().get(j) ) ).addOccurances();
                     }
                 }
                 return cast;

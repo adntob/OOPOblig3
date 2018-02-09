@@ -1,14 +1,18 @@
 package no.hiof.no.aadnet.oblig2;
+import java.time.LocalDate;
 import java.util.ArrayList;
+
+
 
 /**
  * Created by lefdal on 02.02.2018.
  */
 public class Production {
+    private LocalDate releaseYear;
 
     private String title;
     private String description;
-    private int releaseYear;
+    //private int releaseYear;
     private Person director;
     public ArrayList<Character> characters = new ArrayList<>();
 
@@ -24,25 +28,27 @@ public class Production {
         this.title=title;
     }
 
-    public ArrayList<Character> getCharacters()
-    {
-        return characters;
-    }
 
     public void setCharacters(ArrayList<Character> roles, Character role) {
         roles.add(role);
     }
 
-    public Production(String title, String description, int releaseYear){
+    public Production(String title, String description, LocalDate releaseYear){
         this.title = title;
         this.description=description;
         this.releaseYear= releaseYear;
     }
 
 
+    public ArrayList<Character> getCharacters()
+    {
+        return characters;
+    }
+
     public void addCharacter(Character role){
         this.characters.add(role);
     }
+
     public void addSeveralCharacters(ArrayList<Character> rolesToBeAdded){
         int i;
         for(i=0;i<rolesToBeAdded.size();i++){
@@ -74,7 +80,7 @@ public class Production {
         return title;
     }
 
-    public void setReleaseYear(int releaseYear)
+    public void setReleaseYear(LocalDate releaseYear)
     {
         this.releaseYear = releaseYear;
     }
@@ -83,7 +89,7 @@ public class Production {
         return description;
     }
 
-    public int getReleaseYear()
+    public LocalDate getReleaseYear()
     {
         return releaseYear;
     }

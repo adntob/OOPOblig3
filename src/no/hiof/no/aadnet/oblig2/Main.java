@@ -1,5 +1,6 @@
 package no.hiof.no.aadnet.oblig2;
 
+
 public class Main {
     public static void main(String[] args){
 

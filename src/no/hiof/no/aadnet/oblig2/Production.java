@@ -8,11 +8,11 @@ import java.util.ArrayList;
  * Created by lefdal on 02.02.2018.
  */
 public class Production {
-    private LocalDate releaseYear;
+    private LocalDate releaseDate;
 
     private String title;
     private String description;
-    //private int releaseYear;
+    //private int releaseDate;
     private Person director;
     public ArrayList<Character> characters = new ArrayList<>();
 
@@ -28,17 +28,20 @@ public class Production {
         this.title=title;
     }
 
+    public Production(String title, String description, LocalDate releaseDate){
+        this.title = title;
+        this.description=description;
+        this.releaseDate = releaseDate;
+    }
+
+    public Production(String title, LocalDate releaseDate){
+        this.title = title;
+        this.releaseDate = releaseDate;
+    }
 
     public void setCharacters(ArrayList<Character> roles, Character role) {
         roles.add(role);
     }
-
-    public Production(String title, String description, LocalDate releaseYear){
-        this.title = title;
-        this.description=description;
-        this.releaseYear= releaseYear;
-    }
-
 
     public ArrayList<Character> getCharacters()
     {
@@ -80,18 +83,18 @@ public class Production {
         return title;
     }
 
-    public void setReleaseYear(LocalDate releaseYear)
+    public void setReleaseDate(LocalDate releaseDate)
     {
-        this.releaseYear = releaseYear;
+        this.releaseDate = releaseDate;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public LocalDate getReleaseYear()
+    public LocalDate getReleaseDate()
     {
-        return releaseYear;
+        return releaseDate;
     }
 
     @Override
@@ -99,7 +102,7 @@ public class Production {
         return "Production" +
                 "title='" + title + '\'' +
                 ", description='" + description + '\'' +
-                ", releaseYear=" + releaseYear +
+                ", releaseDate=" + releaseDate +
                 ", director=" + director +
                 ", characters=" + characters;
     }

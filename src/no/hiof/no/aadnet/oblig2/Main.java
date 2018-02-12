@@ -1,5 +1,5 @@
 package no.hiof.no.aadnet.oblig2;
-
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args){
@@ -8,8 +8,8 @@ public class Main {
         *   Oppgave 2
         * */
 
-        Series bojack= new Series("Bojack Horseman","A series about a washed up antropomerphic horse actor",2004);
-        Series buffy = new Series("Buffy the Vampire Slayer","A really amazing series about a girl that fights vampires",1997);
+        Series bojack= new Series("Bojack Horseman","A series about a washed up antropomerphic horse actor", LocalDate.of(2004,8,22));
+        Series buffy = new Series("Buffy the Vampire Slayer","A really amazing series about a girl that fights vampires",LocalDate.of(1997, 3, 10) );
 
         Episode faithHopeAndTricks = new Episode(37, 1, "Faith, Hope & Trick",30);
         Episode bandCandy = new Episode(40, 1, "Band Candy",30);
@@ -31,7 +31,7 @@ public class Main {
         System.out.println("*************************************MOVIE*****************************************");
 
         Movie calculusTheMovie = new Movie("Calculus: The Movie", "A fairly derivative movie " +
-                "about a secret tangent and his his epic quest to achieve change",1675);
+                "about a secret tangent and his his epic quest to achieve change",LocalDate.of(1675,4,20 ));
 
         Person leibniz = new Person(29,"Gottfried","Leibniz");
 
@@ -56,18 +56,13 @@ public class Main {
         System.out.println("************************************************************************************");
         System.out.println("*************************************TV SERIES**************************************");
         Person whedon = new Person(54, "Joss","Whedon");
-
-        buffy.setDirector(whedon);
-        System.out.println(buffy.getDirector());
+        System.out.println(buffy);
 
         Person sarah = new Person(41,"Sarah Michelle", "Gellar");
         Character buffySummers = new Character(sarah, "Buffy","Summers");
 
         Person david = new Person(49,"David", "Boreanaz");
         Character angel = new Character(david,"Angelus"," ");
-
-        buffy.addCharacter(buffySummers);
-        buffy.addCharacter(angel);
 
         buffy.getCast();
 
@@ -84,5 +79,13 @@ public class Main {
         faithHopeAndTricks.addCharacter(buffySummers);
         faithHopeAndTricks.addCharacter(angel);
         System.out.println(buffy.getCast());
+
+        Series daysOfOurLives = new Series("Days of Our Lives", "It never ends...." , LocalDate.of(1965, 11,8));
+
+        /*
+        System.out.println(today);
+        System.out.println(today.plusDays(1));
+        */
+
     }
 }

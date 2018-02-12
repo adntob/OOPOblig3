@@ -1,5 +1,5 @@
 package no.hiof.no.aadnet.oblig2;
-
+import java.time.LocalDate;
 /**
  * Created by lefdal on 02.02.2018.
  */
@@ -13,7 +13,7 @@ public class Person {
 
     public Person(int age, String givenName, String familyName){
         this.age = age;
-        this.givenName=givenName;
+        this.givenName = givenName;
         this.familyName = familyName;
     }
 

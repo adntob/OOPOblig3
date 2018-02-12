@@ -1,27 +1,65 @@
 package no.hiof.no.aadnet.oblig2;
 import java.util.ArrayList;
-
-public class Series extends Production {
+import java.time.LocalDate;
+public class Series {
 
     private int numberOfSeasons;
     private int averageRunTime;
     private ArrayList <Episode> episodes = new ArrayList<>();
+    private String title;
 
     /*
     *   Constructors
     * */
 
-    private String title;
-    private String description;
-    private int releaseYear;
-
-
-    public Series(String title, String description, int releaseYear) {
+    public Series(String title, String description, LocalDate releaseYear) {
         this.title=title;
         this.description=description;
         this.releaseYear=releaseYear;
         numberOfSeasons=0;
     }
+
+    public void setNumberOfSeasons(int numberOfSeasons) {
+        this.numberOfSeasons = numberOfSeasons;
+    }
+
+    public void setAverageRunTime(int averageRunTime) {
+        this.averageRunTime = averageRunTime;
+    }
+
+    public void setEpisodes(ArrayList<Episode> episodes) {
+        this.episodes = episodes;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public LocalDate getReleaseYear() {
+        return releaseYear;
+    }
+
+    public void setReleaseYear(LocalDate releaseYear) {
+        this.releaseYear = releaseYear;
+    }
+
+    private String description;
+    private LocalDate releaseYear;
+
+
+
     /*
     * Getters
     * */
@@ -38,19 +76,16 @@ public class Series extends Production {
     }
 
     public ArrayList<Episode> GetEpisodesFromSeason(int i){
-        int k;
-        ArrayList<Episode> e = new ArrayList<>();
+        ArrayList<Episode> episodeList = new ArrayList<>();
 
-        for (k=0;k<episodes.size();k++){
-            if (episodes.get(k).getSeason()==i){
-               e.add(episodes.get(k));
+        for (Episode ep : episodes){
+            if (ep.getSeason()==1){
+                episodeList.add(ep);
+                }
             }
+        return episodeList;
         }
-        return e;
-    }
-    /*
-    * Metoder
-    * */
+
     public void addEpisode(Episode episode)
     {
         if (episode.getSeason()>(numberOfSeasons +1) ){
@@ -67,8 +102,7 @@ public class Series extends Production {
     @Override
     public String toString() {
         return "Series: "+ getTitle() + "\n" +
-                "description: "  + getDescription() + "\n" +
-                "releaseYear: " + getReleaseYear();
+                "description: "  + getDescription() + "\n";
     }
     private void calculateAverageRunTime(){
         int j;

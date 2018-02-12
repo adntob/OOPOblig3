@@ -22,6 +22,14 @@ public class Episode extends Production {
         this.lengthEpisode = lengthEpisode;
     }
 
+    public Episode(int episodeNumber, LocalDate releaseDate, int season, String title, int lengthEpisode){
+        super(title, releaseDate);
+        this.episodeNumber = episodeNumber;
+        this.season = season;
+
+        this.lengthEpisode = lengthEpisode;
+    }
+
     public Episode(int episodeNumber, int season, String title){
         this.episodeNumber = episodeNumber;
         this.season = season;

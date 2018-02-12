@@ -8,7 +8,7 @@ public class Character {
     private Person actor;
     private String characterName;
     private String characterSurname;
-    private int occurance=0;
+    private int occurance = 0;
 
     public Character(Person actor, String characterName, String characterSurname){
         this.actor = actor;

@@ -107,12 +107,6 @@ public class Series {
             calculateAverageRunTime();
         }
     }
-    @Override
-    public String toString() {
-
-        return "Series: "+ getTitle() + "\n" +
-                "description: "  + getDescription() + "\n";
-    }
     private void calculateAverageRunTime(){
 
         int j;
@@ -140,4 +134,13 @@ public class Series {
                 }
                 return cast;
             }
+
+    @Override
+    public String toString() {
+
+        return "Series: "+ getTitle() + "\n" +
+                "description: "  + getDescription() + "\n";
     }
+
+
+}

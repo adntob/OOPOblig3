@@ -32,8 +32,6 @@ public class Person {
     public String getFamilyName() {
         return familyName;
     }
-
-
     public int getAge() {
         return age;
     }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ac9a17-973c-4f36-a823-24c39096879b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1 og 2.tex" afterPath="$PROJECT_DIR$/1 og 2.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" afterPath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java" afterPath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java" afterPath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,12 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Series.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Series.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="113" column="6" lean-forward="true" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="21">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,7 +36,7 @@
       <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="945">
               <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
@@ -52,33 +56,9 @@
       <file leaf-file-name="Production.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#577#578#0" expanded="false" />
-                <element signature="e#609#610#0" expanded="false" />
-                <element signature="e#1014#1015#0" expanded="false" />
-                <element signature="e#1045#1046#0" expanded="false" />
-                <element signature="e#1100#1101#0" expanded="false" />
-                <element signature="e#1133#1134#0" expanded="false" />
-                <element signature="e#1180#1181#0" expanded="false" />
-                <element signature="e#1221#1222#0" expanded="false" />
-                <element signature="e#1466#1467#0" expanded="false" />
-                <element signature="e#1497#1498#0" expanded="false" />
-                <element signature="e#1545#1546#0" expanded="false" />
-                <element signature="e#1585#1586#0" expanded="false" />
-                <element signature="e#1720#1721#0" expanded="false" />
-                <element signature="e#1766#1767#0" expanded="false" />
-                <element signature="e#1802#1803#0" expanded="false" />
-                <element signature="e#1830#1831#0" expanded="false" />
-                <element signature="e#1891#1892#0" expanded="false" />
-                <element signature="e#1937#1938#0" expanded="false" />
-                <element signature="e#1975#1976#0" expanded="false" />
-                <element signature="e#2009#2010#0" expanded="false" />
-                <element signature="e#2054#2055#0" expanded="false" />
-                <element signature="e#2088#2089#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="775">
+              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Episode.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Episode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Episode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="-275">
               <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="104" />
               <folding />
             </state>
@@ -128,8 +108,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="775">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/Eget/mekk/Sirkel.java" />
         <option value="$PROJECT_DIR$/src/Eget/mekk/Main.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Movie.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Episode.java" />
         <option value="$PROJECT_DIR$/src/Eget/mekk/Higher.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Character.java" />
@@ -185,8 +164,9 @@
         <option value="$PROJECT_DIR$/src/gui/fuck/Crap.java" />
         <option value="$PROJECT_DIR$/src/gui/fuck/CrapTwo.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Main.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" />
       </list>
     </option>
   </component>
@@ -704,7 +684,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -758,7 +740,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +796,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +852,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -936,38 +924,6 @@
     <entry file="file://$PROJECT_DIR$/src/Eget/mekk/ThreeDim.java" />
     <entry file="file://$PROJECT_DIR$/src/Eget/mekk/Figur.java" />
     <entry file="file://$PROJECT_DIR$/src/gui/fuck/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#609#610#0" expanded="false" />
-            <element signature="e#1014#1015#0" expanded="false" />
-            <element signature="e#1045#1046#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-            <element signature="e#1221#1222#0" expanded="false" />
-            <element signature="e#1466#1467#0" expanded="false" />
-            <element signature="e#1497#1498#0" expanded="false" />
-            <element signature="e#1545#1546#0" expanded="false" />
-            <element signature="e#1585#1586#0" expanded="false" />
-            <element signature="e#1720#1721#0" expanded="false" />
-            <element signature="e#1766#1767#0" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-            <element signature="e#1830#1831#0" expanded="false" />
-            <element signature="e#1891#1892#0" expanded="false" />
-            <element signature="e#1937#1938#0" expanded="false" />
-            <element signature="e#1975#1976#0" expanded="false" />
-            <element signature="e#2009#2010#0" expanded="false" />
-            <element signature="e#2054#2055#0" expanded="false" />
-            <element signature="e#2088#2089#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -993,22 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Episode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
@@ -1017,18 +957,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="21">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="113" column="6" lean-forward="true" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+        <state relative-caret-position="775">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Episode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="104" />
           <folding />
         </state>
       </provider>

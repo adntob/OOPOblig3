@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Obligatorisk innlevering 4 - Objektorientert Programmering HiØ}
+\author{Ådne Tobiesen}
+\date{Februar 2018}
+\begin{document}
+   \maketitle
+   
+   \section*{Oppgave 1}
+   \begin{itemize}  
+   
+   
+   \newpage
+   \section*{Oppgave 2}
+   Samarbeidspartner: Jørn Henning Larsen
+   
+   Forskjeller:
+   \begin{itemize}
+   \item Min er på Engelsk, grunn: jeg er vant med engelsk faglitteratur.
+   \item  Min hadde eget episode-objekt på addEpisode, ikke hardkodet. Grunn: Sikkert lite resurseffektivt, men er ryddigere (For min del).
+   \item Hadde ikke if-test for å skrive sesong 4, men egen metode. Riktignok så har jeg fjernet mye kode ifra min innlevering så man kan si at entropien har økt.
+   
+   \item Getterne og setterne er separate på min, mens på Kristine sin så er de annenhver. 
+   
+   \item Konklusjon: Essensen er, sånn totalt sett, den samme.
+   \end{itemize}
+\end{document}

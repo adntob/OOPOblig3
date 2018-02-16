@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Obligatorisk innlevering 3 - Objektorientert Programmering HiØ}
+\author{Ådne Tobiesen}
+\date{Februar 2018}
+\begin{document}
+   \maketitle
+   
+   \section*{Oppgave 1}
+   \begin{itemize}  
+    \item Refactor    - Dette vil si at du bytter ut intern informasjon om noe i programmet ditt, denne endringen vil da skje automatisk over hele prosjektet. Et eksempel: refactoring-funksjonen i IDE-en som gjør at du kan bytte både navn og datatype knirkefritt.
+    \item Static - Static vil si at metoden eller klassen kan eksistere uavhengig av instansvariablene som blir lagd av klassen. For eksempel: Dersom vi har en klasse som heter deltakere, så kan vi ha en statisk metode som teller antall deltakere.
+    \item Abstract - En tom klasse som vi ikke kan bruke for å lage objekter ifra, denne ligger gjerne på toppen av hierarkiet. Denne er nyttig når vi snakker om polymorfisme (Antonym konkret) En abstract-metode er en metode som må bli overridden, og må være inneholdt i en abstract-klasse.
+    
+    \item Interface - Likner på en klasse, men er ikke dette. Ift arv så går denne på siden av denne i strukturen, og en klasse kan per definisjon ikke arve, men heller implementere denne.
+     Innholder en mal for hva en klasse skal inneholde, nærmere bestemt: et grensesnitt. Påtvinger en mal for flere utviklere. Opprinnelig så måtte alt i dette være abstrakt. Implementerer Er greit hvis man skal ha en felles standard på flere ting som i utgpunktet ikke er relaterte. Et eksempel: så kan vi ha en kjøretøy-klasse med en Kjøre-metode, denne implementeres ulikt enten det er en motorsykkel, en båt, et fly eller en bil.Ikke en klasse. 
+    \end{itemize}
+   \newpage
+   \section*{Oppgave 2}
+   Samarbeidspartner: Kristine Hemstad
+   
+   Forskjeller:
+   \begin{itemize}
+   \item Min er på Engelsk, grunn: jeg er vant med engelsk faglitteratur.
+   \item  Min hadde eget episode-objekt på addEpisode, ikke hardkodet. Grunn: Sikkert lite resurseffektivt, men er ryddigere (For min del).
+   \item Hadde ikke if-test for å skrive sesong 4, men egen metode. Riktignok så har jeg fjernet mye kode ifra min innlevering så man kan si at entropien har økt.
+   
+   \item Getterne og setterne er separate på min, mens på Kristine sin så er de annenhver. 
+   
+   \item Konklusjon: Essensen er, sånn totalt sett, den samme.
+   \end{itemize}
+\end{document}

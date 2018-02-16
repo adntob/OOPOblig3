@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ac9a17-973c-4f36-a823-24c39096879b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~1 og 2.tex_autosave" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1 og 2.pdf" afterPath="$PROJECT_DIR$/1 og 2.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1 og 2.tex" afterPath="$PROJECT_DIR$/1 og 2.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Main.java" afterPath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" afterPath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java" afterPath="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,38 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Series.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Series.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#574#575#0" expanded="false" />
-                <element signature="e#628#629#0" expanded="false" />
-                <element signature="e#685#686#0" expanded="false" />
-                <element signature="e#737#738#0" expanded="false" />
-                <element signature="e#797#798#0" expanded="false" />
-                <element signature="e#837#838#0" expanded="false" />
-                <element signature="e#869#870#0" expanded="false" />
-                <element signature="e#897#898#0" expanded="false" />
-                <element signature="e#939#940#0" expanded="false" />
-                <element signature="e#973#974#0" expanded="false" />
-                <element signature="e#1011#1012#0" expanded="false" />
-                <element signature="e#1045#1046#0" expanded="false" />
-                <element signature="e#1099#1100#0" expanded="false" />
-                <element signature="e#1145#1146#0" expanded="false" />
-                <element signature="e#1186#1187#0" expanded="false" />
-                <element signature="e#1220#1221#0" expanded="false" />
-                <element signature="e#1277#1278#0" expanded="false" />
-                <element signature="e#1323#1324#0" expanded="false" />
-                <element signature="e#1462#1463#0" expanded="false" />
-                <element signature="e#1500#1501#0" expanded="false" />
-                <element signature="e#1537#1538#0" expanded="false" />
-                <element signature="e#1574#1575#0" expanded="false" />
-                <element signature="e#1621#1622#0" expanded="false" />
-                <element signature="e#1652#1653#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="334">
+              <caret line="113" column="6" lean-forward="true" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,11 +115,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-246">
               <caret line="45" column="78" lean-forward="false" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -193,10 +174,8 @@
         <option value="$PROJECT_DIR$/src/Eget/mekk/Sirkel.java" />
         <option value="$PROJECT_DIR$/src/Eget/mekk/Main.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Movie.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Production.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Episode.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java" />
         <option value="$PROJECT_DIR$/src/Eget/mekk/Higher.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Character.java" />
         <option value="$PROJECT_DIR$/src/Eget/mekk/DivideByZeroNoExceptionHandling.java" />
@@ -206,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/gui/fuck/Crap.java" />
         <option value="$PROJECT_DIR$/src/gui/fuck/CrapTwo.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Main.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java" />
       </list>
     </option>
   </component>
@@ -723,33 +704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1045#1046#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1145#1146#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1537#1538#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1621#1622#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -803,33 +758,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1045#1046#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1145#1146#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1537#1538#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1621#1622#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -883,33 +812,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1045#1046#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1145#1146#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1537#1538#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1621#1622#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,33 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1045#1046#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1145#1146#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1537#1538#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1621#1622#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,48 +922,6 @@
     <entry file="file://$PROJECT_DIR$/src/Eget/mekk/Higher.java" />
     <entry file="file://$PROJECT_DIR$/src/Eget/mekk/Kule.java" />
     <entry file="file://$PROJECT_DIR$/src/Eget/mekk/Sirkel.java" />
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1045#1046#0" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1145#1146#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1537#1538#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1621#1622#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Eget/mekk/DivideByZeroNoExceptionHandling.java" />
     <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1178,6 +1013,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
           <caret line="45" column="78" lean-forward="false" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/no/aadnet/oblig2/Series.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="113" column="6" lean-forward="true" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
           <folding />
         </state>
       </provider>

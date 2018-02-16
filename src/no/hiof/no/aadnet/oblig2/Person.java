@@ -1,12 +1,15 @@
 package no.hiof.no.aadnet.oblig2;
 import java.time.LocalDate;
-/**
- * Created by lefdal on 02.02.2018.
- */
+
+
 public class Person {
     private int age;
     private String givenName;
     private String familyName;
+
+    /*
+    *   Constructor
+    * */
 
     public Person(){
     }
@@ -17,24 +20,36 @@ public class Person {
         this.familyName = familyName;
     }
 
-    public int getAge() {
-        return age;
-    }
+    /*
+    * Getters
+    * */
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public String getGivenName() {
         return givenName;
     }
 
-    public void setGivenName(String givenName) {
-        this.givenName = givenName;
-    }
-
     public String getFamilyName() {
         return familyName;
+    }
+
+
+    public int getAge() {
+        return age;
+    }
+
+
+    /*
+    * Setters
+    * */
+
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setGivenName(String givenName) {
+        this.givenName = givenName;
     }
 
     public void setFamilyName(String familyName) {

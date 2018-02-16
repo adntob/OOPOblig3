@@ -43,7 +43,7 @@ public class Main {
 
         Character scaryBlackGuy = new Character(new Person(40,"Samuel L.", "Jackson"),"Scary","Black Guy");
 
-        Character theLoveInterest = new Character(new Person(25,"Ariana","Grande"),"Token","Love Interest");
+        Character theLoveInterest = new Character(new Person(25,"Zoe","Schanel"),"Token","Love Interest");
 
         calculusTheMovie.addCharacter(theVillain);
 
